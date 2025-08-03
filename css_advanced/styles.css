@@ -1,0 +1,143 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  /* margin-left: 120px;
+  margin-right: 150px;
+  padding-top:80px; */
+  z-index:1000;
+  margin-top:-100px;
+  
+} 
+
+.logo{
+  margin-left:227px;
+}
+ .menu{
+  margin-right: 130px;
+ }
+ nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size:12px;
+  float:right;
+}
+
+nav ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}  
+
+ .hero {
+  background: url('./images/Object.png') center top/cover no-repeat;
+  color: white;
+  text-align: center;
+  position: relative;
+  width: 1440px;
+  height: 1093px;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 0;   
+}  
+
+
+section.hero h1 {
+  font-size: 3.5rem;
+  font-weight: 600;
+  text-align:center;
+  font-size: 120px;
+  /* margin-bottom: 10px; */
+  margin-top:0 auto;
+  /* margin-left:10px;  */
+}  
+/* 
+button {
+  background-color: #C271FF;
+  color: white;
+  font-weight: bold;
+  border-radius: 20px;
+  border: none;
+  font-size: 12px;
+  padding: 12px 25px;
+  cursor: pointer;
+  margin: 0 auto; 
+} */
+/* 
+ .hero span {
+  display: inline-block;
+  padding: 8px 20px;
+  margin-top: -50px;
+  /* margin-left: 10px; */
+  /* color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 16px;
+  margin */
+
+}  */
+
+/* button {
+  background-color: #C271FF;
+  width:162px;
+  height: 44px;
+  color: white;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 20px;
+  border: none;
+  margin-top: 0;
+  
+  font-size: 10px;
+  margin:0 auto;
+  
+} */
+
+
+/* h2 {
+  color: #ccc;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.profiles {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+} */
+
+/* .profile {
+  text-align: center;
+  color: white;
+}
+
+.profile img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid white;
+} */
+
+/* h3 {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.title {
+  font-size: 14px;
+  color: #ccc;
+} */
